@@ -17,6 +17,9 @@
     "url": "git://github.com/waterlinejs/sqlite3-adapter.git"
   },
   "dependencies": {
+    "babel": "6.23.0",
+    "gulp": "3.9.1",
+    "gulp-babel": "6.1.2",
     "knex": "^0.13",
     "lodash": "^4.17.4",
     "moment": "^2.10.6",
@@ -26,9 +29,6 @@
     "waterline-sequel": "^0.6.4"
   },
   "devDependencies": {
-    "babel": "6.23.0",
-    "gulp": "3.9.1",
-    "gulp-babel": "6.1.2",
     "mocha": "latest",
     "waterline-adapter-tests": "^0.12.0"
   },
